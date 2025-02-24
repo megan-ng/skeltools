@@ -7,7 +7,7 @@ message(STATUS "----------------Running CMake---------------------------------")
 cmake_host_system_information(RESULT HOSTNAME QUERY HOSTNAME)
 message(STATUS "Invoking CMAKE on : ${HOSTNAME} running: ${CMAKE_HOST_SYSTEM}")
 
-set(ITK_DIR $ENV{HOME}/opt/itk/lib/cmake/ITK-5.3)
+set(ITK_DIR /home/leonardo/tabish/opt/itk-5.3.0-static/lib/cmake/ITK-5.3)
 message(STATUS "ITK Directory ${ITK_DIR}")
 
 find_package(ITK REQUIRED)
